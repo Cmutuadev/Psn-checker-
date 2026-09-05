@@ -1,0 +1,23 @@
+"""
+Fake Generator Tool
+Command: /fake
+Under Maintenance
+"""
+
+from aiogram import Router, F, types
+from aiogram.filters import Command
+
+router = Router()
+
+@router.message(Command("fake"))
+async def fake_command(message: types.Message):
+    await message.reply(
+        "🔧 <b>𝗙𝗮𝗸𝗲 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗼𝗿</b>\n"
+        "━━━━━━━━━━━━━━━━━━━━━━\n"
+        "⛔ <b>𝗨𝗻𝗱𝗲𝗿 𝗠𝗮𝗶𝗻𝘁𝗲𝗻𝗮𝗻𝗰𝗲</b>\n\n"
+        "🔄 𝗧𝗵𝗶𝘀 𝘁𝗼𝗼𝗹 𝗶𝘀 𝗰𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆 𝗯𝗲𝗶𝗻𝗴 𝘂𝗽𝗱𝗮𝘁𝗲𝗱.\n"
+        "⏳ 𝗪𝗲'𝗹𝗹 𝗯𝗲 𝗯𝗮𝗰𝗸 𝘀𝗼𝗼𝗻!\n"
+        "━━━━━━━━━━━━━━━━━━━━━━\n"
+        "👤 @npnbit4",
+        parse_mode="HTML"
+    )

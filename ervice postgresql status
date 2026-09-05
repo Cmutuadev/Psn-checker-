@@ -1,0 +1,10 @@
+[0;1;32m●[0m postgresql.service - PostgreSQL RDBMS
+     Loaded: loaded (]8;;file://vm42180/usr/lib/systemd/system/postgresql.service\/usr/lib/systemd/system/postgresql.service]8;;\; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (exited)[0m since Fri 2026-09-04 12:49:16 UTC; 48min ago
+ Invocation: 84eaecd56bff4156b368306f9ed30713
+   Main PID: 75128 (code=exited, status=0/SUCCESS)
+   Mem peak: 1.7M
+        CPU: 3ms
+
+Sep 04 12:49:16 vm42180 systemd[1]: Starting postgresql.service - PostgreSQL RDBMS...
+Sep 04 12:49:16 vm42180 systemd[1]: Finished postgresql.service - PostgreSQL RDBMS.
